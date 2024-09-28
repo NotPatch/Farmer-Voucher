@@ -33,7 +33,7 @@
         </dependency>
         <!-- Farmer -->
         <dependency>
-            <groupId>com.github.poyrazinan</groupId>
+            <groupId>com.github.Geik-xyz</groupId>
             <artifactId>Farmer-v6</artifactId>
             <version>v6-b108</version>
             <scope>provided</scope>

@@ -35,7 +35,7 @@
         <dependency>
             <groupId>com.github.poyrazinan</groupId>
             <artifactId>Farmer-v6</artifactId>
-            <version>v6-b107</version>
+            <version>v6-b108</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

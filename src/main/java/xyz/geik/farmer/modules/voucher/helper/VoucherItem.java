@@ -94,7 +94,7 @@ public class VoucherItem {
             meta.setLore(Voucher.getInstance().getLang().getTextList(path + ".lore"));
         meta.setDisplayName(Voucher.getInstance().getLang().getText(path + ".name"));
         if (Voucher.getInstance().getLang().getBoolean(path + ".glow")) {
-            if (Bukkit.getVersion().contains("1.21.")) {
+            if (Bukkit.getVersion().contains("1.21.") || Bukkit.getVersion().contains("1.20.6") || Bukkit.getVersion().contains("1.20.5") ) {
                 meta.addEnchant(Enchantment.SHARPNESS, 1, true);
             }
             else {
